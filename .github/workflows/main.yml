@@ -47,4 +47,4 @@ jobs:
           --application-name retry-codedeploy-app
           --deployment-config-name CodeDeployDefault.OneAtATime
           --deployment-group-name retry-codedeploy-group
-          --s3-location bucket=retry-server-archive,bundleType=tgz,key=/drcloud.tar.gz
+          --s3-location bucket=retry-server-archive,bundleType=tgz,key=drcloud.tar.gz
