@@ -1,6 +1,7 @@
 #!/bin/bash
 
 APP_NAME=retry-server
+PATH=$PATH:/home/ubuntu/.nvm/versions/node/v16.15.0/bin
 
 # 패키지 재설치
 cd /home/ubuntu/drcloud-deploy
