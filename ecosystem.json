@@ -1,0 +1,10 @@
+{
+    "apps": [
+      {
+        "name": "retry-server",
+        "script": "dist/main.js",
+        "instances": 2,
+        "exec_mode": "cluster"
+      }
+    ]
+  }
